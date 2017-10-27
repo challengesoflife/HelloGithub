@@ -1,16 +1,39 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Program.cs" company="Eson">
+//   copyright Eson org
+// </copyright>
+// <summary>
+//   Defines the Program type.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+using System;
 
 namespace HelloGithub
 {
-    class Program
+    /// <summary>
+    /// The program.
+    /// </summary>
+    public class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// The test.
+        /// </summary>
+        public const string Test = "HAHA";
+
+        /// <summary>
+        /// The main.
+        /// </summary>
+        /// <param name="args">
+        /// The args.
+        /// </param>
+        public static void Main(string[] args)
         {
             Console.WriteLine("Hello Github !!!");
+
+            Console.WriteLine(Test);
+
+            Console.Read();
         }
     }
 }
