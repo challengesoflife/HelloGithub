@@ -3,3 +3,6 @@
 
 git add .
 git commit -m 'message'
+git diff
+
+git diff --staged
